@@ -1,0 +1,176 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+body
+{
+    /*background: white url('images/wallpaper.png') no-repeat;*/
+    background: linear-gradient(to top, black, white), url('images/w05612-small.webp');
+    background-size: 100%;
+    font-family: sans-serif;
+}
+header
+{
+    padding: 30px 0;
+}
+header h1
+{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+    border: 1px solid black;
+    border-radius: 50px 50px 0 0;
+    border-bottom: none;
+    padding: 5px;
+    margin: 0 180px;
+}
+
+/* Main Menu */
+
+#main-menu
+{
+    width: 980px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 148px;
+}
+#main-menu ul li
+{
+    float: left;
+    width: 140px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    border: 0px solid black;
+    border-radius: 10px;
+}
+.bw
+{
+    position: absolute;
+    left: 0px;
+    width: 140px;
+    height: 500px;
+    cursor: pointer;
+    background: url('images/bw-wallpaper.png') no-repeat;
+    opacity: 0.7;
+    border: 0px solid black;
+    border-radius: 10px;
+}
+.color
+{
+    position: absolute;
+    left: 140px;
+    width: 140px;
+    height: 500px;
+    cursor: pointer;
+    background: url('images/color-wallpaper.png') no-repeat;
+    border: 0px solid black;
+    border-radius: 10px;
+}
+#part2 div
+{
+    background-position: -140px 0px;
+}
+#part3 div
+{
+    background-position: -280px 0px;
+}
+#part4 div
+{
+    background-position: -420px 0px;
+}
+#part5 div
+{
+    background-position: -560px 0px;
+}
+.description
+{
+    left: 140px;
+    position: absolute;
+    width: 240px;
+    height: 460px;
+    padding: 20px;
+    background: white;
+}
+.description h2{
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+}
+.description h3
+{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 26px;
+    font-family: sans-serif;
+    background: black;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 25px;
+}
+.description p
+{
+    padding-top: 35px;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+
+/* button-menu */
+
+#button-menu
+{
+    float: left;
+    width: 100%;
+    padding: 170px 0 50px 0;
+}
+#button-menu ul
+{
+    float: left;
+    position: relative;
+    left: 50%;
+    text-align: center;
+}
+.button
+{
+    float: left;
+    width: 150px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 10px 4px;
+    position: relative;
+    right: 50%;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    font-family: sans-serif;
+    text-align:center;
+    border-radius: 10px;
+    border: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 22px;
+    cursor: pointer;
+    opacity: 0.9;
+
+}
+.hovered
+{
+    background: white;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 4px 4px 4px whitesmoke;
+}
